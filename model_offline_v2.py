@@ -44,7 +44,7 @@ with open(JSON_FILE, "r") as f:
     json_data = json.load(f)
 
 df_json = pd.DataFrame(json_data)
-# metadata = df_json   #if json file is preferred
+metadata = df_json   #if json file is preferred
 metadata = csv_data
 
 # Split metadata
